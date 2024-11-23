@@ -1,5 +1,5 @@
 
 document.addEventListener('DOMContentLoaded',function(){
-	body.innerHTML="DOM load success";
+	document.body.innerHTML="DOM load success";
 })
 
