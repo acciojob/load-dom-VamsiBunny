@@ -1,3 +1,5 @@
-let body=document.body;
 
-body.innerHTML="DOM load success";
+document.addEventListener('DOMContentLoaded',function(){
+	body.innerHTML="DOM load success";
+})
+
